@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2024-06-20T05:22:07.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="FCjMBQNzLO6KYU5qYZro" version="24.5.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1093" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-0" value="git stash&lt;div&gt;暫存 staged files&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="104" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-1" value="git checkout&lt;div&gt;切換 commit 或 branch&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="284" y="20" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-2" value="執行環境配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="474" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-0" target="qXbqn0QrzcKyMqXNzE_A-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264" y="180" as="sourcePoint" />
+            <mxPoint x="314" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-1" target="qXbqn0QrzcKyMqXNzE_A-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="200" as="sourcePoint" />
+            <mxPoint x="444" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-2" target="qXbqn0QrzcKyMqXNzE_A-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="734" y="80" as="sourcePoint" />
+            <mxPoint x="244" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="654" y="50" />
+              <mxPoint x="654" y="120" />
+              <mxPoint x="184" y="120" />
+              <mxPoint x="184" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-6" value="git checkout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="244" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-7" value="git stash pop&lt;div&gt;提出上次暫存檔案&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="424" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-6" target="qXbqn0QrzcKyMqXNzE_A-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294" y="310" as="sourcePoint" />
+            <mxPoint x="344" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-9" value="執行環境配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="604" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-7" target="qXbqn0QrzcKyMqXNzE_A-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474" y="360" as="sourcePoint" />
+            <mxPoint x="524" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-12" value="git commit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="104" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-13" value="git checkout&lt;div&gt;切換 commit 或 branch&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="284" y="400" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-14" value="執行環境配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="474" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-12" target="qXbqn0QrzcKyMqXNzE_A-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264" y="560" as="sourcePoint" />
+            <mxPoint x="314" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-13" target="qXbqn0QrzcKyMqXNzE_A-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="580" as="sourcePoint" />
+            <mxPoint x="444" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-14" target="qXbqn0QrzcKyMqXNzE_A-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="734" y="460" as="sourcePoint" />
+            <mxPoint x="244" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="654" y="430" />
+              <mxPoint x="654" y="500" />
+              <mxPoint x="184" y="500" />
+              <mxPoint x="184" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-18" value="git checkout&lt;div&gt;切換到剛剛的 commit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="244" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-19" value="git reset HEAD^&lt;div&gt;刪除一個 commit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="424" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-18" target="qXbqn0QrzcKyMqXNzE_A-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294" y="690" as="sourcePoint" />
+            <mxPoint x="344" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-21" value="執行環境配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="604" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qXbqn0QrzcKyMqXNzE_A-19" target="qXbqn0QrzcKyMqXNzE_A-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474" y="740" as="sourcePoint" />
+            <mxPoint x="524" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;方法 stash&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="361" y="250" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qXbqn0QrzcKyMqXNzE_A-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;方法 reset&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="361" y="630" width="106" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
